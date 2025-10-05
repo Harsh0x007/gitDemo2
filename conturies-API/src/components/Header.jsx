@@ -1,10 +1,15 @@
 import React from 'react'
+import moon from '../assets/moon.png';
 
 function Header() {
     return (
-        <div>
-            <h1>Where in the world?</h1>
-        </div>
+        <header className='shadow-md flex items-center justify-between  max-w-[1200px] mx-auto px-[38px] py-4'>
+            <h2 className='text-3xl font-bold'>Where in the world?</h2>
+            <div className='flex items-center cursor-pointer gap-2'>
+                <img src={moon} alt="Moon Icon" className="w-6 h-6" />
+                <span className='font-medium'>Dark Mode</span>
+            </div>
+        </header>
     )
 }
 
