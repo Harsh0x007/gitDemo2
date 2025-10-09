@@ -2,7 +2,7 @@ import React from 'react'
 
 function CountryCard() {
     return (
-        <div className="bg-red-300 shadow-md rounded-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer grid grid-col w-full max-w-[250px] mx-auto">
+        <div className="shadow-md rounded-lg overflow-hidden hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer grid grid-col-1 w-full max-w-[250px] mx-auto bg-white">
             <img 
                 src="https://flagcdn.com/is.svg" 
                 alt="flag"
